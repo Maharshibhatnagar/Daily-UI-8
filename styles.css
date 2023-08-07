@@ -1,0 +1,38 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#ADD3FB, #4763B4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+    background-color: #F1F4FC;
+    overflow: hidden;
+}
+
+.bottom {
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    bottom: 0%;
+}
